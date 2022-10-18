@@ -41,7 +41,7 @@ function collectData() {
     num4.innerHTML = creditCardArray[3];
     //finished adding credit number
     fakeCvc.innerHTML = cvc.value;
-    nameCard.innerHTML = cardName.value;
+    nameCard.innerHTML = cardName.value.toUpperCase();
     expiryCardDate = `${monthDigit.value}/${yearDigit.value}`;
     expiryDate.innerHTML = expiryCardDate;
     //finished adding all info to card
